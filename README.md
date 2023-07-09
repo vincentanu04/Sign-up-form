@@ -1,6 +1,6 @@
 # Form
 
-![My form page](form-1.png)
+![My form page](images/form-1.png)
 
 Basic form page.
 
