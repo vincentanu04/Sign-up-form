@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form!!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <section class="title">
+        <h1>VINCENT</h1>
+        <p>Photo by Ivan Bandura on <a target="_blank" href="https://unsplash.com/">Unsplash</a></p>
+    </section>
+    <section class="form">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem maiores ratione velit distinctio ad adipisci repellendus obcaecati reiciendis corporis totam temporibus iusto non eius architecto, sapiente suscipit est odio harum!</p>
+        <p>You <span class="italic">know</span> you want to.</p>
+        <form>
+            <p>Let's do this!</p>
+            <div class="form-row">
+                <div class="row-elem">
+                    <label for="first-name">First Name</label>
+                    <input required type="text" id="first-name" name="first-name">
+                </div>
+                <div class="row-elem">
+                    <label for="last-name">Last Name</label>
+                    <input required type="text" id="last-name" name="last-name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="row-elem">
+                    <label for="email">Email</label>
+                    <input required type="email" id="email" name="email">
+                </div>
+                <div class="row-elem">
+                    <label for="phone-number">Phone Number</label>
+                    <input required type="tel" id="phone-number" name="phone-number">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="row-elem">
+                    <label for="password">Password</label>
+                    <input required type="password" id="password" name="password">
+                    <p class="error" id="error">*Passwords do not match</p>
+                </div>
+                <div class="row-elem">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input required type="password" id="confirm-password" name="confirm-password">
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="#">Log in</a></p>
+    </section>
+</body>
+</html>
