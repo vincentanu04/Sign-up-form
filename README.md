@@ -2,7 +2,7 @@
 
 ![My form page](images/form-1.png)
 
-Basic sign up form page with form validation.
+Sign up form page that is responsive with form validation.
 
 Tech stack: HTML, CSS, JS, Sass
 

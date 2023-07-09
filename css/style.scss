@@ -19,16 +19,10 @@ body {
     display: flex;
 }
 
-section {
-    display: inline-block;
-}
-
 .title {
     background-image: url(../images/ocean.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: -10px;
-    min-width: 32%;
+    min-width: 35%;
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -146,4 +140,45 @@ section {
     }
 
 
+}
+
+@media screen and (max-width: 1035px) {
+    .form {
+        font-size: 1rem;
+
+        .form {
+            p:not(form p) {
+                padding-inline: 3em;
+            }
+        }
+
+        form {
+            .form-row {
+                flex-direction: column;
+                gap: 1em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    body {
+        flex-direction: column;
+        gap: 3em;
+        margin-bottom: 2em;
+    }
+
+    .title {
+        height: fit-content;
+
+        h1 {
+            margin: 0 0 1em 0;
+        }
+    }
+    
+    .form {
+        p:not(form p) {
+            padding-inline: 3em;
+        }
+    }
 }
