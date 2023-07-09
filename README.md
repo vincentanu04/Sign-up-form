@@ -1,8 +1,8 @@
-# Form
+# Sign up form
 
 ![My form page](images/form-1.png)
 
-Basic form page.
+Basic sign up form page with form validation.
 
 Tech stack: HTML, CSS, JS, Sass
 
